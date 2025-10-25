@@ -2,342 +2,426 @@
 -- 自动生成的汉化脚本
 
 local Translations = {
-    ["Build Radius"] = "建造范围",
-    ["130"] = "130",
-    ["Angle Increment"] = "角度增量",
-    ["2"] = "2",
-    ["Plant/Build Limit"] = "种植/建造限制",
-    ["250"] = "250",
-    ["Plant Saplings in One Place"] = "在一处种植树苗",
-    ["Plant Saplings in Circle"] = "环形种植树苗",
-    ["Build Log Walls in Circle"] = "环形建造原木墙",
-    ["Carrot"] = "胡萝卜",
-    ["Apple"] = "苹果",
-    ["Cake"] = "蛋糕",
-    ["Mackerel"] = "鲭鱼",
-    ["Ribs"] = "排骨",
-    ["Crossbow Cultist"] = "弩信徒",
-    ["Cultist"] = "信徒",
-    ["Sapling"] = "树苗",
-    ["Feather"] = "羽毛",
-    ["Alien"] = "外星人",
-    ["Log"] = "原木",
-    ["Chair"] = "椅子",
-    ["Coal"] = "煤炭",
-    ["Fuel Canister"] = "燃料罐",
-    ["Oil Barrel"] = "油桶",
-    ["Biofuel"] = "生物燃料",
-    ["Player"] = "玩家",
-    ["Workbench"] = "工作台",
-    ["Simple"] = "简单",
-    ["Safe"] = "安全",
-    ["Bring Settings"] = "获取设置",
-    ["Use Freecam for Bring Items"] = "使用自由视角获取物品",
-    ["Untouchable by Others"] = "他人不可触碰",
-    ["Makes the brought items untouchable by other players"] = "使获取的物品不被其他玩家触碰",
-    ["Bring Method"] = "获取方式",
-    ["Ultra Fast"] = "超快",
-    ["Bring Location"] = "获取位置",
-    ["Max Per Item"] = "每件物品最大数量",
-    ["100"] = "100",
-    ["Slow"] = "慢",
-    ["Fast"] = "快",
-    ["Fire"] = "火",
-    ["Bring Cooldown"] = "获取冷却时间",
-    ["1"] = "1",
-    ["No Bring Amount Limit"] = "无获取数量限制",
-    ["Bring Height"] = "获取高度",
-    ["20"] = "20",
-    ["Bring Cultists"] = "获取信徒",
-    ["Cultist Choice"] = "信徒选择",
-    ["Crossbow..."] = "弩……",
-    ["Bring Meteor Items"] = "获取流星物品",
-    ["Items Choice"] = "物品选择",
-    ["Raw..."] = "原材料……",
-    ["Bring Fuel [BETA]"] = "获取燃料[测试版]",
-    ["Fuel"] = "燃料",
-    ["Log, Chair,..."] = "原木、椅子……",
-    ["Bring Logs [BETA]"] = "获取原木[测试版]",
-    ["Bring Food & Healing"] = "获取食物与医疗物品",
-    ["Food & Healing"] = "食物与医疗物品",
-    ["Bandage,..."] = "绷带……",
-    ["Bring Gears"] = "获取齿轮",
-    ["Gears"] = "齿轮",
-    ["Bolt, Tyre,..."] = "螺栓、轮胎……",
-    ["Bring Guns & Armor"] = "获取枪支与护甲",
-    ["Guns & Armor"] = "枪支与护甲",
-    ["Laser..."] = "激光……",
-    ["Bring Others"] = "获取其他物品",
-    ["Others"] = "其他物品",
-    ["Gem of..."] = "……宝石",
-    ["Raw Obsidiron Ore"] = "原始黑曜石矿石",
-    ["Gold Shard"] = "金碎片",
-    ["Meteor Shard"] = "流星碎片",
-    ["Scalding Obsidiron Ingot"] = "灼热黑曜石锭",
-    ["Pumpkin"] = "南瓜",
-    ["Salmon"] = "三文鱼",
-    ["Swordfish"] = "剑鱼",
-    ["Berry"] = "浆果",
-    ["Stew"] = "炖菜",
-    ["Steak Dinner"] = "牛排晚餐",
-    ["Morsel"] = "小块食物",
-    ["Steak"] = "牛排",
-    ["Corn"] = "玉米",
-    ["Cooked Morsel"] = "煮熟的小块食物",
-    ["Cooked Steak"] = "煮熟的牛排",
-    ["Bandage"] = "绷带",
-    ["MedKit"] = "医疗包",
-    ["Chilli"] = "辣椒",
-    ["Bolt"] = "螺栓",
-    ["Tyre"] = "轮胎",
-    ["Sheet Metal"] = "金属板",
-    ["Old Radio"] = "旧收音机",
-    ["Broken Fan"] = "坏风扇",
-    ["Broken Microwave"] = "坏微波炉",
-    ["Washing Machine"] = "洗衣机",
-    ["Old Car Engine"] = "旧汽车引擎",
-    ["UFO Scrap"] = "不明飞行物废料",
-    ["UFO Component"] = "不明飞行物部件",
-    ["UFO Junk"] = "不明飞行物垃圾",
-    ["Cultist Gem"] = "信徒宝石",
-    ["Gem of the Forest"] = "森林宝石",
-    ["Infernal Sword"] = "地狱之剑",
-    ["Morningstar"] = "晨星",
-    ["Crossbow"] = "弩",
-    ["Infernal Crossbow"] = "地狱弩",
-    ["Laser Sword"] = "激光剑",
-    ["Raygun"] = "射线枪",
-    ["Ice Axe"] = "冰斧",
-    ["Ice Sword"] = "冰剑",
-    ["Chainsaw"] = "电锯",
-    ["Strong Axe"] = "强力斧头",
-    ["Axe Trim Kit"] = "斧头装饰套件",
-    ["Spear"] = "长矛",
-    ["Good Axe"] = "优质斧头",
-    ["Revolver"] = "左轮手枪",
-    ["Rifle"] = "步枪",
-    ["Tactical Shotgun"] = "战术霰弹枪",
-    ["Revolver Ammo"] = "左轮手枪弹药",
-    ["Rifle Ammo"] = "步枪弹药",
-    ["Alien Armour"] = "外星护甲",
-    ["Frog Boots"] = "青蛙靴",
-    ["Leather Body"] = "皮革胸甲",
-    ["Iron Body"] = "铁制胸甲",
-    ["Thorn Body"] = "荆棘胸甲",
-    ["Riot Shield"] = "防暴盾牌",
-    ["Armour Trim Kit"] = "护甲装饰套件",
-    ["Obsidiron Boots"] = "黑曜石靴",
-    ["Halloween Candle"] = "万圣节蜡烛",
-    ["Candy"] = "糖果",
-    ["Frog Key"] = "青蛙钥匙",
-    ["Wildfire"] = "野火",
-    ["Sacrifice Totem"] = "献祭图腾",
-    ["Old Rod"] = "旧钓竿",
-    ["Flower"] = "花朵",
-    ["Coin Stack"] = "金币堆",
-    ["Infernal Sack"] = "地狱麻袋",
-    ["Giant Sack"] = "巨型麻袋",
-    ["Good Sack"] = "优质麻袋",
-    ["Seed Box"] = "种子箱",
-    ["Old Flashlight"] = "旧手电筒",
-    ["Strong Flashlight"] = "强力手电筒",
-    ["Bunny Foot"] = "兔子脚",
-    ["Wolf Pelt"] = "狼皮",
-    ["Bear Pelt"] = "熊皮",
-    ["Mammonth Tusk"] = "猛犸象牙",
-    ["Alpha Wolf Pelt"] = "阿尔法狼皮",
-    ["Bear Corpse"] = "熊尸",
-    ["Gem of the Forest Fragment"] = "森林宝石碎片",
-    ["Diamond"] = "钻石",
-    ["Defense Blueprint"] = "防御蓝图",
-    ["Entity Godmode"] = "实体上帝模式",
-    ["Become Invincible"] = "变得无敌",
-    ["Makes you unhitable by other entities You also can't die from hunger 🔥"] = "使你不会被其他实体击中，你也不会因饥饿而死亡🔥",
-    ["Enabled"] = "启用",
-    ["Hip Height Changer"] = "臀部高度调整器",
-    ["Aura"] = "光环",
-    ["Kill Aura"] = "杀戮光环",
-    ["Ice Aura"] = "冰光环",
-    ["Ore Aura"] = "矿石光环",
-    ["Require Hand Check"] = "需要手持检查",
-    ["If disabled, it will let all Auras to work without you holding any tool 🔥"] = "如果禁用，所有光环将在你不手持任何工具时工作🔥",
-    ["Auto TP to Targets"] = "自动传送至目标",
-    ["Automatically teleports to targets when they are out of range (200 Studs). This is because the 99 Nights devs patched higher range :c"] = "当目标超出范围（200 studs）时自动传送至目标。这是因为《99夜》的开发者修复了更大范围的问题:c",
-    ["Aura Range"] = "光环范围",
-    ["Tree Aura"] = "树木光环",
-    ["Auto Chop Trees"] = "自动砍树",
-    ["Auto Chop Tree Type"] = "自动砍伐树木类型",
-    ["Small..."] = "小型……",
-    ["Auto Chop Trees Range"] = "自动砍树范围",
-    ["Auto Plant Saplings"] = "自动种植树苗",
-    ["Chop Status Visualiser"] = "砍伐状态可视化器",
-    ["Taming"] = "驯服",
-    ["Equip Zookeeper class"] = "装备动物园管理员职业",
-    ["Bring Carrots"] = "获取胡萝卜",
-    ["Bring Steak"] = "获取牛排",
-    ["100% Taming Success Rate"] = "100%驯服成功率",
-    ["Instant Taming Minigame"] = "即时驯服小游戏",
-    ["Fishing"] = "钓鱼",
-    ["Teleport to Fishing Hut"] = "传送至钓鱼小屋",
-    ["100% Fishing Success Rate"] = "100%钓鱼成功率",
-    ["Instant Catch Fish"] = "即时捕鱼",
-    ["Auto Eat"] = "自动进食",
-    ["Auto Eat Food"] = "自动进食食物",
-    ["Carrot,..."] = "胡萝卜……",
-    ["Eat When Hunger Below"] = "饥饿值低于时进食",
-    ["Auto Bandage"] = "自动绷带",
-    ["MedKit included"] = "包含医疗包",
-    ["Heal When Below"] = "生命值低于时治疗",
-    ["Hitbox Expansion"] = "碰撞箱扩展",
-    ["Enable Hitbox Expansion"] = "启用碰撞箱扩展",
-    ["Hitbox Size Multiplier"] = "碰撞箱大小倍增器",
-    ["Other"] = "其他",
-    ["Instant Open Chests"] = "即时打开箱子",
-    ["Auto TP to Camp at Night"] = "夜间自动传送至营地",
-    ["TP to Camp"] = "传送至营地",
-    ["Bring Pumpkins"] = "获取南瓜",
-    ["Bring Candles"] = "获取蜡烛",
-    ["Open All Chests via Auto Chest"] = "通过自动箱子打开所有箱子",
-    ["By opening all chests you have a bigger chance of bringing a lot of halloween candles 🕯️"] = "通过打开所有箱子，你有更大的机会获取大量万圣节蜡烛🕯️",
-    ["Halloween House TP"] = "万圣节房屋传送",
-    ["Halloween House Choice"] = "万圣节房屋选择",
-    ["--"] = "--",
-    ["Teleport to Halloween House"] = "传送至万圣节房屋",
-    ["Halloween House Birdwatcher"] = "万圣节观鸟屋",
-    ["Fairy House"] = "精灵屋",
-    ["Refresh Halloween House List"] = "刷新万圣节房屋列表",
-    ["Low GFX"] = "低画质",
-    ["Cleanup Big Trees"] = "清理大树",
-    ["Cleanup Logs"] = "清理原木",
-    ["This deletes ALL logs from the map PERMANENTLY!"] = "这会永久删除地图上的所有原木！",
-    ["Anti Void"] = "防虚空",
-    ["Auto TP to Warm Place"] = "自动传送至温暖区域",
-    ["Chest TP [BETA]"] = "箱子传送[测试版]",
-    ["Chest Dropdown"] = "箱子下拉菜单",
-    ["Teleport To Chest"] = "传送至箱子",
-    ["Refresh Chest List"] = "刷新箱子列表",
-    ["Child TP"] = "孩童传送",
-    ["Select Child"] = "选择孩童",
-    ["Teleport To Child"] = "传送至孩童",
-    ["Structure TP"] = "建筑传送",
-    ["Select Structure"] = "选择建筑",
-    ["Teleport To Selected Structure"] = "传送至所选建筑",
-    ["Other TP"] = "其他传送",
-    ["DinoKid"] = "恐龙孩童",
-    ["KoalaKid"] = "考拉孩童",
-    ["KrakenKid"] = "海怪孩童",
-    ["SquidKid"] = "鱿鱼孩童",
-    ["Bank"] = "银行",
-    ["Cultist Generator Base"] = "信徒发电机基地",
-    ["Volcano"] = "火山",
-    ["AlienMothership"] = "外星母舰",
-    ["AlienCrash_Active"] = "活跃的外星坠毁点",
-    ["Military Base"] = "军事基地",
-    ["Snow Clothing Shop"] = "雪地服装店",
-    ["Testing Facility"] = "测试设施",
-    ["ToolWorkshop"] = "工具作坊",
-    ["Teleport to Cultist Generator Base"] = "传送至信徒发电机基地",
-    ["Teleport to Stronghold"] = "传送至要塞",
-    ["Teleport to Stronghold Diamond Chest"] = "传送至要塞钻石箱",
-    ["Teleport to Caravan"] = "传送至大篷车",
-    ["Teleport to Fairy"] = "传送至精灵",
-    ["Teleport to Anvil"] = "传送至铁砧",
-    ["Main ESP"] = "主要ESP",
-    ["PlayerEspColor"] = "玩家ESP颜色",
-    ["Fishing ESP"] = "钓鱼ESP",
-    ["FishingEspColor"] = "钓鱼ESP颜色",
-    ["Water Hole"] = "水洞",
-    ["Water Hole Big"] = "大水洞",
-    ["Water Hole1"] = "水洞1",
-    ["Fishing Items"] = "钓鱼物品",
-    ["Old Rod,..."] = "旧钓竿……",
-    ["Children ESP"] = "孩童ESP",
-    ["Children"] = "孩童",
-    ["ChildrenEspColor"] = "孩童ESP颜色",
-    ["Children Items"] = "孩童物品",
-    ["Lost Child"] = "迷路孩童",
-    ["Lost Child2"] = "迷路孩童2",
-    ["Lost Child3"] = "迷路孩童3",
-    ["Lost Child4"] = "迷路孩童4",
-    ["Gears ESP"] = "齿轮ESP",
-    ["GearsEspColor"] = "齿轮ESP颜色",
-    ["Gears Items"] = "齿轮物品",
-    ["Fuel ESP"] = "燃料ESP",
-    ["FuelEspColor"] = "燃料ESP颜色",
-    ["Fuel Items"] = "燃料物品",
-    ["Food & Healing ESP"] = "食物与医疗ESP",
-    ["FoodHealingEspColor"] = "食物与医疗ESP颜色",
-    ["Food & Healing Items"] = "食物与医疗物品",
-    ["Guns & Armor ESP"] = "枪支与护甲ESP",
-    ["GunsArmorEspColor"] = "枪支与护甲ESP颜色",
-    ["Guns & Armor Items"] = "枪支与护甲物品",
-    ["Infernal..."] = "地狱……",
-    ["Others ESP"] = "其他ESP",
-    ["OthersEspColor"] = "其他ESP颜色",
-    ["Others Items"] = "其他物品",
-    ["Halloween..."] = "万圣节……",
-    ["Characters ESP"] = "角色ESP",
-    ["Characters"] = "角色",
-    ["CharactersEspColor"] = "角色ESP颜色",
-    ["Characters Items"] = "角色物品",
-    ["FrogKing,..."] = "青蛙王……",
-    ["ESP Settings"] = "ESP设置",
-    ["Enable Highlight"] = "启用高亮",
-    ["Show Distance"] = "显示距离",
-    ["Fill Transparency"] = "填充透明度",
-    ["FrogKing"] = "青蛙王",
-    ["Frog"] = "青蛙",
-    ["Scorpion"] = "蝎子",
-    ["Hellephant"] = "地狱象",
-    ["Ram"] = "公羊",
-    ["Naill"] = "纳尔",
-    ["FrogBlue"] = "蓝青蛙",
-    ["FrogPurple"] = "紫青蛙",
-    ["Wolf"] = "狼",
-    ["Bear"] = "熊",
-    ["Bunny"] = "兔子",
-    ["Mammoth"] = "猛犸象",
-    ["Juggernaut Cultist"] = "主宰信徒",
-    ["Alpha Wolf"] = "阿尔法狼",
-    ["Alien Elite"] = "精英外星人",
-    ["Outline Transparency"] = "轮廓透明度",
-    ["Text Size"] = "文字大小",
-    ["Cultist King"] = "信徒王",
-    ["Meteor Crab"] = "流星蟹",
-    ["Polar Bear"] = "北极熊",
-    ["Arctic Fox"] = "北极狐",
-    ["Self"] = "自身",
-    ["FOV"] = "视野",
-    ["Movement"] = "移动",
-    ["Walk Speed"] = "行走速度",
-    ["Speed"] = "速度",
-    ["Fly"] = "飞行",
-    ["Fly Speed"] = "飞行速度",
-    ["TP Walk Speed"] = "传送行走速度",
-    ["TP Walk"] = "传送行走",
-    ["Noclip"] = "穿墙",
-    ["Infinite Jump"] = "无限跳跃",
-    ["Useful Stuff"] = "实用内容",
-    ["Fullbright"] = "全亮度",
-    ["Remove Fog"] = "移除雾气",
-    ["Remove Sky"] = "移除天空",
-    ["Ambient"] = "环境",
-    ["Rich Shader"] = "丰富着色器",
-    ["Shader Color"] = "着色器颜色",
-    ["Lighting Theme"] = "照明主题",
-    ["Violet"] = "紫罗兰色",
-    ["Red"] = "红色",
-    ["Save"] = "保存",
-    ["Saves elements to config"] = "将元素保存到配置",
-    ["Load"] = "加载",
-    ["Loads elements from config"] = "从配置加载元素",
-    ["Performance"] = "性能",
-    ["Teleport"] = "传送",
-    ["Visuals"] = "视觉效果",
-    ["Local Player"] = "本地玩家",
-    ["Misc"] = "杂项",
-    ["Theme"] = "主题",
-    ["Config"] = "配置"
+    ["水蓝色"] = "Aqua",
+    ["靛蓝色"] = "Indigo",
+    ["赛博朋克风"] = "Cyberpunk",
+    ["翡翠绿"] = "Emerald",
+    ["琥珀色"] = "Amber",
+    ["薰衣草色"] = "Lavender",
+    ["紫罗兰色"] = "Violet",
+    ["红色"] = "Red",
+    ["保存"] = "Save",
+    ["将元素保存到配置"] = "Saves elements to config",
+    ["加载"] = "Load",
+    ["从配置加载元素"] = "Loads elements from config",
+    ["性能"] = "Performance",
+    ["传送"] = "Teleport",
+    ["视觉"] = "Visuals",
+    ["本地玩家"] = "Local Player",
+    ["杂项"] = "Misc",
+    ["主题"] = "Theme",
+    ["配置"] = "Config",
+    ["自身"] = "Self",
+    ["视野范围"] = "FOV",
+    ["移动"] = "Movement",
+    ["行走速度"] = "Walk Speed",
+    ["速度"] = "Speed",
+    ["飞行"] = "Fly",
+    ["飞行速度"] = "Fly Speed",
+    ["传送行走速度"] = "TP Walk Speed",
+    ["传送行走"] = "TP Walk",
+    ["穿墙"] = "Noclip",
+    ["无限跳跃"] = "Infinite Jump",
+    ["实用功能"] = "Useful Stuff",
+    ["全亮度"] = "Fullbright",
+    ["移除雾气"] = "Remove Fog",
+    ["移除天空"] = "Remove Sky",
+    ["环境"] = "Ambient",
+    ["丰富着色器"] = "Rich Shader",
+    ["着色器颜色"] = "Shader Color",
+    ["光照主题"] = "Lighting Theme",
+    ["紫色"] = "Purple",
+    ["启用光照主题"] = "Enable Lighting Theme",
+    ["美学光照"] = "Aesthetic Lighting",
+    ["安全"] = "Security",
+    ["防挂机"] = "Anti AFK",
+    ["重置相机 [可能会损坏你的相机！]"] = "Reset Camera [Might Break your camera!]",
+    ["坐标"] = "Coordinates",
+    ["显示坐标"] = "Show Coordinates",
+    ["鸣谢"] = "Credits",
+    ["erchodev#0 - 脚本开发"] = "erchodev#0 - script dev",
+    ["Linoria - 界面库"] = "Linoria - ui library",
+    ["Obsidian - 界面库"] = "Obsidian - ui library",
+    ["Wind - 界面库"] = "Wind - ui library",
+    ["mspaint v2"] = "mspaint v2",
+    ["无限收益"] = "Inf Yield",
+    ["如果需要鸣谢请通知我（Discord上的erchodev#0）"] = "Please notify me if you need credits (erchodev#0 on discord)",
+    ["选择主题"] = "Select Theme",
+    ["切换窗口透明度"] = "Toggle Window Transparency",
+    ["主题名称"] = "Theme Name",
+    ["背景颜色"] = "Background Color",
+    ["轮廓颜色"] = "Outline Color",
+    ["文字颜色"] = "Text Color",
+    ["占位符文字颜色"] = "Placeholder Text Color",
+    ["更新主题"] = "Update Theme",
+    ["桃色"] = "Peach",
+    ["霓虹粉"] = "NeonPink",
+    ["日落色"] = "Sunset",
+    ["珊瑚色"] = "Coral",
+    ["浅色"] = "Light",
+    ["霓虹绿"] = "NeonGreen",
+    ["极光色"] = "Aurora",
+    ["森林绿"] = "Forest",
+    ["海洋蓝"] = "Ocean",
+    ["霓虹黄"] = "NeonYellow",
+    ["霓虹蓝"] = "NeonBlue",
+    ["深色"] = "Dark",
+    ["外星人护甲"] = "Alien Armour",
+    ["青蛙靴"] = "Frog Boots",
+    ["皮革胸甲"] = "Leather Body",
+    ["铁胸甲"] = "Iron Body",
+    ["荆棘胸甲"] = "Thorn Body",
+    ["防暴盾牌"] = "Riot Shield",
+    ["护甲修饰套件"] = "Armour Trim Kit",
+    ["黑曜铁靴"] = "Obsidiron Boots",
+    ["食物与治疗物品"] = "Food & Healing",
+    ["食物与治疗物品ESP颜色"] = "FoodHealingEspColor",
+    ["食物与治疗物品"] = "Food & Healing Items",
+    ["胡萝卜，..."] = "Carrot,...",
+    ["枪支与护甲ESP"] = "Guns & Armor ESP",
+    ["枪支与护甲"] = "Guns & Armor",
+    ["枪支与护甲ESP颜色"] = "GunsArmorEspColor",
+    ["枪支与护甲物品"] = "Guns & Armor Items",
+    ["地狱..."] = "Infernal...",
+    ["其他物品ESP"] = "Others ESP",
+    ["其他物品"] = "Others",
+    ["其他物品ESP颜色"] = "OthersEspColor",
+    ["其他物品"] = "Others Items",
+    ["万圣节..."] = "Halloween...",
+    ["角色ESP"] = "Characters ESP",
+    ["角色"] = "Characters",
+    ["角色ESP颜色"] = "CharactersEspColor",
+    ["角色物品"] = "Characters Items",
+    ["青蛙王，..."] = "FrogKing,...",
+    ["ESP设置"] = "ESP Settings",
+    ["启用高亮"] = "Enable Highlight",
+    ["显示距离"] = "Show Distance",
+    ["填充透明度"] = "Fill Transparency",
+    ["轮廓透明度"] = "Outline Transparency",
+    ["文字大小"] = "Text Size",
+    ["青蛙王"] = "FrogKing",
+    ["青蛙"] = "Frog",
+    ["蝎子"] = "Scorpion",
+    ["地狱象"] = "Hellephant",
+    ["公羊"] = "Ram",
+    ["钉子"] = "Naill",
+    ["蓝青蛙"] = "FrogBlue",
+    ["紫青蛙"] = "FrogPurple",
+    ["狼"] = "Wolf",
+    ["熊"] = "Bear",
+    ["兔子"] = "Bunny",
+    ["猛犸象"] = "Mammoth",
+    ["邪教徒"] = "Cultist",
+    ["弩邪教徒"] = "Crossbow Cultist",
+    ["主宰邪教徒"] = "Juggernaut Cultist",
+    ["阿尔法狼"] = "Alpha Wolf",
+    ["外星人"] = "Alien",
+    ["精英外星人"] = "Alien Elite",
+    ["邪教徒王"] = "Cultist King",
+    ["流星蟹"] = "Meteor Crab",
+    ["北极熊"] = "Polar Bear",
+    ["北极狐"] = "Arctic Fox",
+    ["旧钓竿"] = "Old Rod",
+    ["钓鱼小屋"] = "Fishing Hut",
+    ["水坑"] = "Water Hole",
+    ["大水坑"] = "Water Hole Big",
+    ["水坑1"] = "Water Hole1",
+    ["钓鱼物品"] = "Fishing Items",
+    ["孩子ESP"] = "Children ESP",
+    ["孩子"] = "Children",
+    ["孩子ESP颜色"] = "ChildrenEspColor",
+    ["孩子物品"] = "Children Items",
+    ["迷路的孩子"] = "Lost Child",
+    ["迷路的孩子2"] = "Lost Child2",
+    ["迷路的孩子3"] = "Lost Child3",
+    ["迷路的孩子4"] = "Lost Child4",
+    ["齿轮ESP颜色"] = "GearsEspColor",
+    ["齿轮物品"] = "Gears Items",
+    ["螺栓，轮胎，..."] = "Bolt, Tyre,...",
+    ["燃料ESP"] = "Fuel ESP",
+    ["燃料"] = "Fuel",
+    ["燃料ESP颜色"] = "FuelEspColor",
+    ["燃料物品"] = "Fuel Items",
+    ["弩..."] = "Crossbow...",
+    ["食物与治疗物品ESP"] = "Food & Healing ESP",
+    ["胡萝卜"] = "Carrot",
+    ["南瓜"] = "Pumpkin",
+    ["鲭鱼"] = "Mackerel",
+    ["三文鱼"] = "Salmon",
+    ["剑鱼"] = "Swordfish",
+    ["浆果"] = "Berry",
+    ["排骨"] = "Ribs",
+    ["炖菜"] = "Stew",
+    ["牛排晚餐"] = "Steak Dinner",
+    ["小块肉"] = "Morsel",
+    ["牛排"] = "Steak",
+    ["玉米"] = "Corn",
+    ["煮熟的小块肉"] = "Cooked Morsel",
+    ["煮熟的牛排"] = "Cooked Steak",
+    ["绷带"] = "Bandage",
+    ["医疗包"] = "MedKit",
+    ["辣椒"] = "Chilli",
+    ["苹果"] = "Apple",
+    ["地狱剑"] = "Infernal Sword",
+    ["晨星锤"] = "Morningstar",
+    ["弩"] = "Crossbow",
+    ["地狱弩"] = "Infernal Crossbow",
+    ["激光剑"] = "Laser Sword",
+    ["射线枪"] = "Raygun",
+    ["冰斧"] = "Ice Axe",
+    ["冰剑"] = "Ice Sword",
+    ["电锯"] = "Chainsaw",
+    ["强力斧"] = "Strong Axe",
+    ["斧头修饰套件"] = "Axe Trim Kit",
+    ["长矛"] = "Spear",
+    ["优质斧"] = "Good Axe",
+    ["左轮手枪"] = "Revolver",
+    ["步枪"] = "Rifle",
+    ["战术霰弹枪"] = "Tactical Shotgun",
+    ["左轮手枪弹药"] = "Revolver Ammo",
+    ["步枪弹药"] = "Rifle Ammo",
+    ["万圣节观鸟者房屋"] = "Halloween House Birdwatcher",
+    ["精灵屋"] = "Fairy House",
+    ["刷新万圣节房屋列表"] = "Refresh Halloween House List",
+    ["低图形质量"] = "Low GFX",
+    ["清理大树"] = "Cleanup Big Trees",
+    ["清理原木"] = "Cleanup Logs",
+    ["这会永久删除地图上的所有原木！"] = "This deletes ALL logs from the map PERMANENTLY!",
+    ["防虚空"] = "Anti Void",
+    ["自动传送至温暖区域"] = "Auto TP to Warm Place",
+    ["箱子传送 [测试版]"] = "Chest TP [BETA]",
+    ["箱子下拉菜单"] = "Chest Dropdown",
+    ["传送至箱子"] = "Teleport To Chest",
+    ["刷新箱子列表"] = "Refresh Chest List",
+    ["孩子传送"] = "Child TP",
+    ["选择孩子"] = "Select Child",
+    ["传送至孩子"] = "Teleport To Child",
+    ["建筑传送"] = "Structure TP",
+    ["选择建筑"] = "Select Structure",
+    ["传送至所选建筑"] = "Teleport To Selected Structure",
+    ["其他传送"] = "Other TP",
+    ["传送至营地"] = "Teleport to Camp",
+    ["恐龙小孩"] = "DinoKid",
+    ["考拉小孩"] = "KoalaKid",
+    ["克拉肯小孩"] = "KrakenKid",
+    ["鱿鱼小孩"] = "SquidKid",
+    ["银行"] = "Bank",
+    ["邪教徒发电机基地"] = "Cultist Generator Base",
+    ["火山"] = "Volcano",
+    ["外星人母舰"] = "AlienMothership",
+    ["活跃的外星人坠毁点"] = "AlienCrash_Active",
+    ["军事基地"] = "Military Base",
+    ["雪地服装店"] = "Snow Clothing Shop",
+    ["测试设施"] = "Testing Facility",
+    ["工具作坊"] = "ToolWorkshop",
+    ["传送至邪教徒发电机基地"] = "Teleport to Cultist Generator Base",
+    ["传送至要塞"] = "Teleport to Stronghold",
+    ["传送至要塞钻石箱"] = "Teleport to Stronghold Diamond Chest",
+    ["传送至大篷车"] = "Teleport to Caravan",
+    ["传送至精灵处"] = "Teleport to Fairy",
+    ["传送至铁砧"] = "Teleport to Anvil",
+    ["主要ESP"] = "Main ESP",
+    ["玩家"] = "Player",
+    ["玩家ESP颜色"] = "PlayerEspColor",
+    ["钓鱼ESP"] = "Fishing ESP",
+    ["钓鱼"] = "Fishing",
+    ["钓鱼ESP颜色"] = "FishingEspColor",
+    ["熊皮"] = "Bear Pelt",
+    ["猛犸象牙"] = "Mammoth Tusk",
+    ["阿尔法狼皮"] = "Alpha Wolf Pelt",
+    ["熊尸体"] = "Bear Corpse",
+    ["流星碎片"] = "Meteor Shard",
+    ["金碎片"] = "Gold Shard",
+    ["原始黑曜铁矿"] = "Raw Obsidiron Ore",
+    ["森林宝石碎片"] = "Gem of the Forest Fragment",
+    ["钻石"] = "Diamond",
+    ["防御蓝图"] = "Defense Blueprint",
+    ["实体上帝模式"] = "Entity Godmode",
+    ["变得无敌"] = "Become Invincible",
+    ["使你不会被其他实体击中，你也不会死于饥饿"] = "Makes you unhitable by other entities You also can't die from hunger",
+    ["启用"] = "Enabled",
+    ["臀部高度调整器"] = "Hip Height Changer",
+    ["光环"] = "Aura",
+    ["杀戮光环"] = "Kill Aura",
+    ["冰光环"] = "Ice Aura",
+    ["矿石光环"] = "Ore Aura",
+    ["需要手持检查"] = "Require Hand Check",
+    ["如果禁用，所有光环将在你不手持任何工具时生效"] = "If disabled, it will let all Auras to work without you holding any tool",
+    ["自动传送至目标"] = "Auto TP to Targets",
+    ["当目标超出范围（200 studs）时自动传送至目标。这是因为《99夜》的开发者修复了更高范围的漏洞 :c"] = "Automatically teleports to targets when they are out of range (200 Studs). This is because the 99 Nights devs patched higher range :c",
+    ["光环范围"] = "Aura Range",
+    ["树木光环"] = "Tree Aura",
+    ["自动砍树"] = "Auto Chop Trees",
+    ["自动砍伐树木类型"] = "Auto Chop Tree Type",
+    ["小型..."] = "Small...",
+    ["自动砍树范围"] = "Auto Chop Trees Range",
+    ["自动种植树苗"] = "Auto Plant Saplings",
+    ["砍伐状态可视化器"] = "Chop Status Visualiser",
+    ["驯服"] = "Taming",
+    ["装备动物园管理员职业"] = "Equip Zookeeper class",
+    ["传送胡萝卜"] = "Bring Carrots",
+    ["传送牛排"] = "Bring Steak",
+    ["100% 驯服成功率"] = "100% Taming Success Rate",
+    ["即时驯服小游戏"] = "Instant Taming Minigame",
+    ["传送至钓鱼小屋"] = "Teleport to Fishing Hut",
+    ["100% 钓鱼成功率"] = "100% Fishing Success Rate",
+    ["即时抓鱼"] = "Instant Catch Fish",
+    ["自动进食"] = "Auto Eat",
+    ["自动进食食物"] = "Auto Eat Food",
+    ["饥饿值低于时进食"] = "Eat When Hunger Below",
+    ["自动绷带"] = "Auto Bandage",
+    ["包含医疗包"] = "MedKit included",
+    ["生命值低于时治疗"] = "Heal When Below",
+    ["碰撞箱扩展"] = "Hitbox Expansion",
+    ["启用碰撞箱扩展"] = "Enable Hitbox Expansion",
+    ["碰撞箱大小倍增器"] = "Hitbox Size Multiplier",
+    ["其他"] = "Other",
+    ["即时打开箱子"] = "Instant Open Chests",
+    ["夜间自动传送至营地"] = "Auto TP to Camp at Night",
+    ["传送至营地"] = "TP to Camp",
+    ["传送南瓜"] = "Bring Pumpkins",
+    ["传送蜡烛"] = "Bring Candles",
+    ["通过自动箱子打开所有箱子"] = "Open All Chests via Auto Chest",
+    ["通过打开所有箱子，你有更大的机会获得大量万圣节蜡烛"] = "By opening all chests you have a bigger chance of bringing a lot of halloween candles",
+    ["万圣节房屋传送"] = "Halloween House TP",
+    ["万圣节房屋选择"] = "Halloween House Choice",
+    ["传送至万圣节房屋"] = "Teleport to Halloween House",
+    ["洗衣机"] = "Washing Machine",
+    ["旧汽车引擎"] = "Old Car Engine",
+    ["UFO废料"] = "UFO Scrap",
+    ["UFO部件"] = "UFO Component",
+    ["UFO垃圾"] = "UFO Junk",
+    ["邪教徒宝石"] = "Cultist Gem",
+    ["森林宝石"] = "Gem of the Forest",
+    ["万圣节蜡烛"] = "Halloween Candle",
+    ["糖果"] = "Candy",
+    ["青蛙钥匙"] = "Frog Key",
+    ["羽毛"] = "Feather",
+    ["野火"] = "Wildfire",
+    ["献祭图腾"] = "Sacrifice Totem",
+    ["花朵"] = "Flower",
+    ["金币堆"] = "Coin Stack",
+    ["地狱麻袋"] = "Infernal Sack",
+    ["巨型麻袋"] = "Giant Sack",
+    ["优质麻袋"] = "Good Sack",
+    ["种子箱"] = "Seed Box",
+    ["旧手电筒"] = "Old Flashlight",
+    ["强力手电筒"] = "Strong Flashlight",
+    ["兔子脚"] = "Bunny Foot",
+    ["狼皮"] = "Wolf Pelt",
+    ["传送冷却"] = "Bring Cooldown",
+    ["无传送数量限制"] = "No Bring Amount Limit",
+    ["传送高度"] = "Bring Height",
+    ["传送邪教徒"] = "Bring Cultists",
+    ["邪教徒选择"] = "Cultist Choice",
+    ["传送流星物品"] = "Bring Meteor Items",
+    ["物品选择"] = "Items Choice",
+    ["生..."] = "Raw...",
+    ["传送燃料 [测试版]"] = "Bring Fuel [BETA]",
+    ["传送原木 [测试版]"] = "Bring Logs [BETA]",
+    ["传送食物与治疗物品"] = "Bring Food & Healing",
+    ["传送齿轮"] = "Bring Gears",
+    ["齿轮"] = "Gears",
+    ["传送枪支与护甲"] = "Bring Guns & Armor",
+    ["传送其他物品"] = "Bring Others",
+    ["灼热黑曜铁锭"] = "Scalding Obsidiron Ingot",
+    ["三文鱼"] = "Salmon",
+    ["剑鱼"] = "Swordfish",
+    ["浆果"] = "Berry",
+    ["炖菜"] = "Stew",
+    ["牛排晚餐"] = "Steak Dinner",
+    ["小块肉"] = "Morsel",
+    ["煮熟的小块肉"] = "Cooked Morsel",
+    ["煮熟的牛排"] = "Cooked Steak",
+    ["辣椒"] = "Chilli",
+    ["螺栓"] = "Bolt",
+    ["轮胎"] = "Tyre",
+    ["金属板"] = "Sheet Metal",
+    ["旧收音机"] = "Old Radio",
+    ["损坏的风扇"] = "Broken Fan",
+    ["损坏的微波炉"] = "Broken Microwave",
+    ["自动箱子 [测试版]"] = "Auto Chest [BETA]",
+    ["传送位置"] = "Bring Location",
+    ["战利品模式"] = "Loot Mode",
+    ["安全"] = "Safe",
+    ["战利品范围"] = "Loot Radius",
+    ["箱子延迟（秒）"] = "Chest Delay (sec)",
+    ["种植物品"] = "Plant Stuff",
+    ["建造范围"] = "Build Radius",
+    ["角度增量"] = "Angle Increment",
+    ["种植/建造限制"] = "Plant/Build Limit",
+    ["在一处种植树苗"] = "Plant Saplings in One Place",
+    ["环形种植树苗"] = "Plant Saplings in Circle",
+    ["环形建造原木墙"] = "Build Log Walls in Circle",
+    ["蛋糕"] = "Cake",
+    ["树苗"] = "Sapling",
+    ["椅子"] = "Chair",
+    ["燃料罐"] = "Fuel Canister",
+    ["油桶"] = "Oil Barrel",
+    ["生物燃料"] = "Biofuel",
+    ["工作台"] = "Workbench",
+    ["简单"] = "Simple",
+    ["传送设置"] = "Bring Settings",
+    ["为传送物品使用自由视角"] = "Use Freecam for Bring Items",
+    ["他人不可触碰"] = "Untouchable by Others",
+    ["使传送的物品不可被其他玩家触碰"] = "Makes the brought items untouchable by other players",
+    ["传送方式"] = "Bring Method",
+    ["超快"] = "Ultra Fast",
+    ["每件物品最大数量"] = "Max Per Item",
+    ["慢"] = "Slow",
+    ["快"] = "Fast",
+    ["火焰"] = "Fire",
+    ["搜索"] = "Search",
+    ["信息"] = "Information",
+    ["趣味"] = "Fun",
+    ["获取物品"] = "Bring Stuff",
+    ["主要"] = "Main",
+    ["万圣节"] = "Halloween",
+    ["探索地图"] = "Reveal Map",
+    ["让你在地图周围绕圈以加载所有内容"] = "Loops you in circle around the map to let everything load",
+    ["必须持续升级火焰，否则地图无法加载！"] = "Must upgrade the fire constantly or the map won't load!",
+    ["传送所有树木"] = "Teleport All Trees",
+    ["传送所有大树"] = "Teleport All BIG Trees",
+    ["传送所有箱子"] = "Teleport All Chests",
+    ["传送所有孩子 [测试版]"] = "Teleport All Children [BETA]",
+    ["传送实体"] = "Teleport Entities",
+    ["传送这些实体"] = "Teleport The Entities",
+    ["冻结某物的移动 :3"] = "Freeze the movement of something :3",
+    ["冻结这些事物"] = "Freeze The Thingys",
+    ["解冻这些事物"] = "UnFreeze The Thingys",
+    ["蓝青蛙"] = "FrogBlue",
+    ["紫青蛙"] = "FrogPurple",
+    ["主宰邪教徒"] = "Juggernaut Cultist",
+    ["精英外星人"] = "Alien Elite",
+    ["邪教徒王"] = "Cultist King",
+    ["流星蟹"] = "Meteor Crab",
+    ["北极熊"] = "Polar Bear",
+    ["北极狐"] = "Arctic Fox",
+    ["拾取所有花朵"] = "Pickup All Flowers",
+    ["收集所有金堆"] = "Collect All Gold Stacks",
+    ["自动炖锅"] = "Auto Crock Pot",
+    ["食物选择"] = "Food Choice",
+    ["胡萝卜，…"] = "Carrot,...",
+    ["将食物带到炖锅"] = "Bring Food To Cook Pot",
+    ["自动营火"] = "Auto Campfire",
+    ["燃料类型"] = "Fuel Type",
+    ["煤，燃料…"] = "Coal, Fuel...",
+    ["自动填充营火"] = "Auto Fill Campfire",
+    ["当（火焰生命值）达到时开始加燃料"] = "Start Fueling when (Fire HP)",
+    ["自动收集"] = "Auto Collect",
+    ["自动拾取花朵"] = "Auto Pickup Flowers",
+    ["自动收集金币堆"] = "Auto Collect Coin Stacks",
+    ["自动打开种子箱"] = "Auto Open Seed Boxes"
 }
 
 local function translateText(text)
@@ -350,56 +434,88 @@ local function translateText(text)
         return Translations[text]
     end
     
-    -- 部分匹配替换
+    -- 部分匹配替换（使用更安全的方法）
     local translated = text
-    for en, cn in pairs(Translations) do
-        if string.find(translated, en, 1, true) then
-            translated = string.gsub(translated, en, cn)
+    for cn, en in pairs(Translations) do
+        local success, result = pcall(function()
+            return string.gsub(translated, cn, en)
+        end)
+        if success and result ~= translated then
+            translated = result
         end
     end
     
     return translated
 end
 
+local function safeHookMetamethod()
+    local success, result = pcall(function()
+        -- 检查必要的函数是否存在
+        if not getrawmetatable or not hookmetamethod then
+            return false, "必要的元表函数不可用"
+        end
+        
+        local mt = getrawmetatable(game)
+        if not mt then
+            return false, "无法获取游戏元表"
+        end
+        
+        local oldIndex
+        oldIndex = hookmetamethod(game, "__newindex", function(t, k, v)
+            if type(k) == "string" and tostring(k) == "Text" then
+                if (t:IsA("TextLabel") or t:IsA("TextButton") or t:IsA("TextBox")) and type(v) == "string" then
+                    v = translateText(v)
+                end
+            end
+            return oldIndex(t, k, v)
+        end)
+        
+        return true, "元表钩子设置成功"
+    end)
+    
+    return success, result
+end
+
 local function setupTranslationEngine()
     local translated = {}
     
-    -- 安全扫描函数
     local function scanAndTranslate(parent)
-        if not parent or not parent:IsDescendantOf(game) then 
-            return 
-        end
+        if not parent or not parent:IsDescendantOf(game) then return end
         
-        for _, gui in ipairs(parent:GetDescendants()) do
-            if not translated[gui] and (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) then
-                local success, result = pcall(function()
-                    local text = gui.Text
-                    if text and text ~= "" then
+        local success, err = pcall(function()
+            for _, gui in ipairs(parent:GetDescendants()) do
+                if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                    local textSuccess, text = pcall(function()
+                        return gui.Text
+                    end)
+                    
+                    if textSuccess and text and text ~= "" then
                         local translatedText = translateText(text)
                         if translatedText ~= text then
-                            gui.Text = translatedText
-                            translated[gui] = true
+                            local setSuccess = pcall(function()
+                                gui.Text = translatedText
+                            end)
+                            if setSuccess then
+                                translated[gui] = true
+                            end
                         end
                     end
-                end)
-                
-                if not success then
-                    -- 忽略错误，继续处理其他元素
                 end
             end
+        end)
+        
+        if not success then
+            warn("扫描翻译失败:", err)
         end
     end
     
-    -- 安全的后代监听器设置
     local function setupDescendantListener(parent)
-        if not parent or not parent:IsDescendantOf(game) then 
-            return 
-        end
+        if not parent then return end
         
         local success, conn = pcall(function()
             return parent.DescendantAdded:Connect(function(descendant)
+                task.wait(0.1) -- 等待GUI完全加载
                 if descendant:IsA("TextLabel") or descendant:IsA("TextButton") or descendant:IsA("TextBox") then
-                    task.wait(0.1) -- 等待GUI完全加载
                     pcall(function()
                         local text = descendant.Text
                         if text and text ~= "" then
@@ -412,28 +528,15 @@ local function setupTranslationEngine()
                 end
             end)
         end)
-    end
-    
-    -- 尝试安全的元表钩子
-    local function setupMetatableHook()
-        local success, err = pcall(function()
-            if getrawmetatable and hookmetamethod then
-                local oldIndex
-                oldIndex = hookmetamethod(game, "__newindex", function(t, k, v)
-                    if tostring(k) == "Text" and (t:IsA("TextLabel") or t:IsA("TextButton") or t:IsA("TextBox")) then
-                        v = translateText(tostring(v))
-                    end
-                    return oldIndex(t, k, v)
-                end)
-            end
-        end)
         
-        if not success then
-            warn("元表钩子设置失败，使用备用方法")
-        end
+        return success
     end
     
-    -- 初始化扫描
+    -- 尝试设置元表钩子（可能在某些环境中不可用）
+    local hookSuccess, hookResult = safeHookMetamethod()
+    warn("元表钩子状态:", hookResult)
+    
+    -- 扫描现有GUI
     pcall(function()
         local coreGui = game:GetService("CoreGui")
         if coreGui then
@@ -442,20 +545,16 @@ local function setupTranslationEngine()
         end
     end)
     
-    pcall(function()
-        local players = game:GetService("Players")
-        local player = players.LocalPlayer
-        if player then
+    local player = game:GetService("Players").LocalPlayer
+    if player then
+        pcall(function()
             local playerGui = player:WaitForChild("PlayerGui")
             scanAndTranslate(playerGui)
             setupDescendantListener(playerGui)
-        end
-    end)
+        end)
+    end
     
-    -- 设置元表钩子
-    setupMetatableHook()
-    
-    -- 定期扫描（备用方案）
+    -- 安全定期扫描
     spawn(function()
         while true do
             pcall(function()
@@ -465,38 +564,38 @@ local function setupTranslationEngine()
                 end
             end)
             
-            pcall(function()
-                local players = game:GetService("Players")
-                local player = players.LocalPlayer
-                if player then
+            if player then
+                pcall(function()
                     local playerGui = player:FindFirstChild("PlayerGui")
                     if playerGui then
                         scanAndTranslate(playerGui)
                     end
-                end
-            end)
-            
-            task.wait(10) -- 每10秒扫描一次
+                end)
+            end
+            task.wait(10) -- 延长扫描间隔减少性能影响
         end
     end)
 end
 
 -- 等待游戏加载
-task.wait(2)
+task.wait(3)
 
 -- 启动翻译引擎
-local success, err = pcall(setupTranslationEngine)
-if not success then
-    warn("翻译引擎启动失败:", err)
+local setupSuccess, setupError = pcall(setupTranslationEngine)
+if not setupSuccess then
+    warn("翻译引擎启动失败:", setupError)
 else
-    warn("汉化脚本已加载")
+    warn("翻译引擎启动成功")
 end
 
 -- 加载主脚本
-local mainScriptSuccess, mainScriptErr = pcall(function()
+warn("正在加载主脚本...")
+local success, err = pcall(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/loader.lua", true))()
 end)
 
-if not mainScriptSuccess then
-    warn("加载主脚本失败:", mainScriptErr)
+if not success then
+    warn("加载主脚本失败:", err)
+else
+    warn("主脚本加载成功")
 end
